@@ -1,0 +1,17 @@
+# Cấu hình ứng dụng chung
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mariadb://localhost:3306/epay-customer
+    username: root
+    password: 1232001
+#grpc:
+#  server:
+#    port: -1 #disale grpc-server
+#  client:
+#    customer-service-grpc:
+#      address: customer-orchestration-service.customer.svc.cluster.local:5099
+#      enableKeepAlive: true
+#      keppAliveWithoutCalls: true
+#      negotiationType: plaintext

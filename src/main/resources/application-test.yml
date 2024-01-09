@@ -1,0 +1,8 @@
+# Cấu hình ứng dụng trong môi trường phát triển
+spring:
+  profiles: test
+  # Cấu hình khác cho môi trường phát triển
+  datasource:
+    url: jdbc:mariadb://localhost:3306/mydatabase
+    username: myusername
+    password: mypassword
